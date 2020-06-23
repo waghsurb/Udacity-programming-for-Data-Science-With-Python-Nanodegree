@@ -1,0 +1,49 @@
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (refactoring)
+$ git checkout master
+Switched to branch 'master'
+M       bikeshare_1.py
+Your branch is up to date with 'origin/master'.
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$ git log --graph --all --oneline
+* d3d6480 (origin/waghsurb-patch-1) Add files via upload
+* 5dcaaf0 (HEAD -> master, origin/master, origin/documentation, origin/HEAD, refactoring, documentation) Create  .gitignore
+* 1d469bf Add files via upload
+* 775f876 Initial commit
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$ git checkout master 
+error: pathspec 'master ' did not match any file(s) known to git
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$ git pull origin
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.45 KiB | 5.00 KiB/s, done.
+From https://github.com/waghsurb/Udacity-programming-for-Data-Science-With-Python-Nanodegree
+   d3d6480..c3b72d3  waghsurb-patch-1 -> origin/waghsurb-patch-1
+ * [new branch]      waghsurb-patch-2 -> origin/waghsurb-patch-2
+Already up to date.
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$ git merge refactoring
+Already up to date.
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$ git merge documentation
+Already up to date.
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$ git push origin
+Everything up-to-date
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$
+
+DELL@DESKTOP-J3VBT16 MINGW64 ~/Desktop/Udacity-programming-for-Data-Science-With-Python-Nanodegree/Udacity-programming-for-Data-Science-With-Python-Nanodegree (master)
+$
